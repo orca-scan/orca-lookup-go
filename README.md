@@ -1,6 +1,6 @@
 # orca-lookup-go
 
-This open source project is a an example of [how to scan barcodes using a smartphone](https://orcascan.com/mobile) and [present data from your system](https://orcascan.com/docs/api/lookup-url) using [Go](https://golang.org/).
+This open source project is a an example of [how to scan barcodes using a smartphone](https://orcascan.com/mobile) and [present data from your system](https://orcascan.com/docs/api/lookup-url) using [Go](https://golang.org/) and the HTTP web framework [gin](https://github.com/gin-gonic/gin).
 
 **How it works:**
 
@@ -14,11 +14,44 @@ This open source project is a an example of [how to scan barcodes using a smartp
 
 ## Install
 
-First ensure you have [Go](https://golang.org/dl/) installed.
+First ensure you have [Go](https://golang.org/dl/) installed:
 
 ```bash
 # should return 1.13 or higher
 go version
+```
+
+Then execute the following:
+
+```bash
+# download this example code
+git clone https://github.com/orca-scan/orca-lookup-go.git
+
+# go into the new directory
+cd orca-lookup-go
+
+# install dependencies
+go get -d ./...
+```
+
+## Run
+
+```bash
+# start the project
+go run index.go
+```
+
+Visit [http://localhost:5000?barcode=4S3BMHB68B3286050](http://localhost:5000?barcode=4S3BMHB68B3286050) to see the following:
+
+```json
+{
+    "VIN": "4S3BMHB68B3286050",
+    "Make": "SUBARU",
+    "Model": "Legacy",
+    "Manufacturer Name": "FUJI HEAVY INDUSTRIES U.S.A",
+    "Vehicle Type": "PASSENGER CAR",
+    "Year": 1992
+}
 ```
 
 ## Troubleshooting
