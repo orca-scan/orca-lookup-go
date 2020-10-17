@@ -38,7 +38,7 @@ go get -d ./...
 
 ```bash
 # start the project
-go run index.go
+go run main.go
 ```
 
 Visit [http://localhost:5000?barcode=4S3BMHB68B3286050](http://localhost:5000?barcode=4S3BMHB68B3286050) to see the following:
@@ -56,7 +56,7 @@ Visit [http://localhost:5000?barcode=4S3BMHB68B3286050](http://localhost:5000?ba
 
 ## How this example works
 
-This is a very [simple example](index.go) using the [gin](https://github.com/gin-gonic/gin) framework:
+This [simple example](main.go) uses the [gin](https://github.com/gin-gonic/gin) framework:
 
 ```go
 package main
