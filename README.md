@@ -1,6 +1,6 @@
 # orca-lookup-go
 
-This open source project is a an example of [how to scan barcodes using a smartphone](https://orcascan.com/mobile) and [present data from your system](https://orcascan.com/docs/api/lookup-url) using [Go](https://golang.org/) and the HTTP web framework [gin](https://github.com/gin-gonic/gin).
+This open source project is a an example of [how to scan barcodes using a smartphone](https://orcascan.com/mobile) and [present data from your system](https://orcascan.com/docs/api/lookup-url) using [Go](https://golang.org/) and the [gin](https://github.com/gin-gonic/gin) framework.
 
 **How it works:**
 
