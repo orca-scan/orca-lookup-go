@@ -84,8 +84,8 @@ router.GET("/", func(c *gin.Context) {
 If you run into any issues not listed here, please [open a ticket](https://github.com/orca-scan/orca-lookup-go/issues).
 
 ## Examples in other langauges
-* [orca-lookup-dotnet](https://github.com/orca-scan/orca-lookup-dotnet)
 * [orca-lookup-node](https://github.com/orca-scan/orca-lookup-node)
+* [orca-lookup-dotnet](https://github.com/orca-scan/orca-lookup-dotnet)
 * [orca-lookup-python](https://github.com/orca-scan/orca-lookup-python)
 * [orca-lookup-php](https://github.com/orca-scan/orca-lookup-php)
 * [orca-lookup-java](https://github.com/orca-scan/orca-lookup-java)
