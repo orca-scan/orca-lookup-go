@@ -34,6 +34,11 @@ cd orca-lookup-go
 go get -d ./...
 ```
 
+If you get an error from this command like "`go.mod file not found in current directory or any parent directory.`", enter the following command, then try again:
+```bash
+go env -w GO111MODULE=auto
+```
+
 ## Run
 
 ```bash
